@@ -1,0 +1,12 @@
+/* Footer.css */
+.footer {
+    background-color: #333; /* Background color for the footer */
+    color: white; /* Text color */
+    padding: 10px; /* Padding to provide some space around the content */
+    text-align: center; /* Center-align the text */
+  }
+  
+  .footer p {
+    margin: 0; /* Remove any default margin for the <p> element */
+  }
+  

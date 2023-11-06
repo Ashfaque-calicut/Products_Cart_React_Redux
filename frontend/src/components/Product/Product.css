@@ -1,0 +1,41 @@
+/* Product.css */
+.products-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .card {
+    width: 250px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s; /* Add a transition for smoother hover effect */
+  }
+  
+  .card:hover {
+    transform: scale(1.05); /* Increase the size of the card on hover */
+  }
+  
+  .card img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .card-description {
+    padding: 10px;
+  }
+  
+  h6 {
+    margin: 0;
+  }
+  
+  /* .products-container > div {
+    text-align: center;
+    margin: 20px;
+  }
+   */
